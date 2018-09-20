@@ -75,7 +75,7 @@ function sendEmail(title,text) {
         port: 465, // SMTP 端口
         secureConnection: true, // 使用了 SSL
         auth: {
-            user: '15201934295@163.com',
+            user: 'xxxxxxxxxx@163.com',
             // 这里密码不是qq密码，是你设置的smtp授权码
             pass: 'xxxxxxxxxxx',
         }
@@ -83,7 +83,7 @@ function sendEmail(title,text) {
 
     let mailOptions = {
         from: '"凡人仙界篇" <15201934295@163.com>', // sender address
-        to: '1038836483@qq.com', // list of receivers
+        to: 'xxxxxxxxxx@qq.com', // list of receivers
         subject: title, // Subject line
         // 发送text或者html格式
         text: text, // plain text body
